@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import TableDashboard from '../../components/table_dashboard/TableDashboard';
 
 const Ticket = () => {
   return (
-    <div>Ticket</div>
+    <div>
+      <TableDashboard />
+    </div>
   )
 }
 

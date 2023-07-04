@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import TableDashboard from '../../components/table_dashboard/TableDashboard';
 
 const Asset = () => {
   return (
-    <div>Asset</div>
+    <div>
+      <TableDashboard />
+    </div>
   )
 }
 
