@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './dashboard.css';
+import { IoIosHelpCircleOutline } from "react-icons/io";
 
 const Dashboard = () => {
   return (
-    <div>
-      <h1>Dashboard</h1>
+    <div className='dashboard'>
+      <h1>UPTIME <span><IoIosHelpCircleOutline /></span></h1>
     </div>
   );
 };

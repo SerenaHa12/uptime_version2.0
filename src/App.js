@@ -1,15 +1,18 @@
-import React from 'react';
-import './App.css';
-import './index.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Sidebar } from './components';
-import { Dashboard, Asset, Ticket, Report, New, Setting } from './pages';
-
+import React from "react";
+import "./App.css";
+import "./index.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Sidebar, Navbar } from "./components";
+import { Dashboard, Asset, Ticket, Report, New, Setting } from "./pages";
+import { AppBar } from "@mui/material";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Sidebar>
+        <React.Fragment>
+          <Navbar />
+        </React.Fragment>
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/dashboard" element={<Dashboard />} />

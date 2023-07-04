@@ -46,8 +46,15 @@
   --global-color-error-error-500: #F65757;
   --global-color-error-error-700: #AF3E3E;
 
+  --color-uibg-01: #F2F5F9;
   --color-uibg-03: #E8F1FC;
 
   --color-ui-boder-01: #D1D5DB;
 }
 
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
