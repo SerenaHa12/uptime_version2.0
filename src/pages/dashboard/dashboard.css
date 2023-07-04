@@ -3,13 +3,14 @@
   padding: 24px;
 }
 
-.dashboard h1 {
+.dashboard-heading {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
   text-transform: uppercase;
   color: var(--text-color-dark);
+  margin-bottom: 24px;
 }
 
 .dashboard h1 span {
