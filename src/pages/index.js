@@ -3,7 +3,8 @@ import Asset from './asset/Asset';
 import New from './new/New';
 import Report from './report/Report';
 import Ticket from './ticket/Ticket';
-import Setting from './setting/Setting'
+import Setting from './setting/Setting';
+import Login from './login/Login';
 
 export{
     Dashboard,
@@ -12,4 +13,5 @@ export{
     Report,
     Ticket,
     Setting,
+    Login,
 }

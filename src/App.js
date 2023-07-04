@@ -4,7 +4,6 @@ import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Sidebar, Navbar } from "./components";
 import { Dashboard, Asset, Ticket, Report, New, Setting } from "./pages";
-import { AppBar } from "@mui/material";
 
 const App = () => {
   return (
