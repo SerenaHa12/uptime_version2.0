@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Sidebar } from './components';
 import { Dashboard, Asset, Ticket, Report, New, Setting } from './pages';
