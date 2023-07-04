@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --font-family: 'Public Sans', sans-serif;
+
+  --text-color-dark: #1F2937;
+  --text-color-medium: #4B5563;
+
+  /* Global Color */
+  --global-color-primary-primary-50-dark: rgb(232, 241, 252);
+  --global-color-primary-primary-50-light: rgb(232, 241, 252);
+  --global-color-primary-primary-100: #B8D2F5;
+  --global-color-primary-primary-300: #659FEA;
+  --global-color-primary-primary-500: #196FE0;
+  --global-color-primary-primary-700: #124F9F;
+  --global-color-primary-primary-800: #0E3D7B;
+  --global-color-primary-primary-gradient: linear-gradient(180deg, #659FEA 0%, rgba(101, 159, 234, 0.44) 100%);
+
+  --global-color-nuetral-nuetral-50: #E9EBF8;
+  --global-color-nuetral-color-white: #FFFFFF;
+  --global-color-nuetral-nuetral-100: #F2F5F9;
+  --global-color-nuetral-nuetral-300: #D1D5DB;
+  --global-color-nuetral-nuetral-400: #9CA3AF;
+  --global-color-nuetral-nuetral-500: #6B7280;
+  --global-color-nuetral-nuetral-600: #4B5563;
+  --global-color-nuetral-nuetral-800: #1F2937;
+  
+  --golbal-color-info-info-50: #ECFAFE;
+  --golbal-color-info-info-100: #C5EEFB;
+  --golbal-color-info-info-300: #82DAF6;
+  --golbal-color-info-info-500: #45C8F1;
+  --golbal-color-info-info-700: #318EAB;
+
+  --global-color-warming-warming-100: #FFDEC5;
+  --global-color-warming-warming-300: #FFB781;
+  --global-color-warming-warming-500: #FF9443;
+  --global-color-warming-warming-700: #B56930;
+
+  --global-color-success-success-100: #B0EDCC;
+  --global-color-success-success-300: #54D991;
+  --global-color-success-success-500: #00C65B;
+  --global-color-success-success-700: #008D41;
+
+  --global-color-error-error-100: #FCCBCB;
+  --global-color-error-error-300: #F98E8E;
+  --global-color-error-error-500: #F65757;
+  --global-color-error-error-700: #AF3E3E;
+
+  --color-uibg-03: #E8F1FC;
+
+  --color-ui-boder-01: #D1D5DB;
+}
