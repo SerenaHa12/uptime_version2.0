@@ -5,6 +5,7 @@
 
   --text-color-dark: #1F2937;
   --text-color-medium: #4B5563;
+  --text-color-primary: #124F9F;
 
   /* Global Color */
   --global-color-primary-primary-50-dark: rgb(232, 241, 252);
@@ -50,6 +51,9 @@
   --color-uibg-03: #E8F1FC;
 
   --color-ui-boder-01: #D1D5DB;
+
+  --disabled-color-success: #E6F9EF;
+  --disable-color-primary: #E8F1FC;
 }
 
 *{

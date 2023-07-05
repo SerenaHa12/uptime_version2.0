@@ -16,8 +16,8 @@ export default function Navbar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" elevation={0} sx={{ boxShadow: "none", bgcolor: "white" }}>
         <Toolbar sx={{ display: "flex", justifyContent: "flex-end" }}>
-          <Typography variant="body1" component="div" sx={{ flexGrow: 1, mr: 2, color: "black", textAlign: 'end' }}>
-            <p>Version 0.0.2</p>
+          <Typography variant="body1" component="div" sx={{ flexGrow: 0, mr: 2, color: "black", textAlign: 'end' }}>
+            <p className="navbar-version">Version 0.0.2</p>
           </Typography>
 
           {/* Email icon */}

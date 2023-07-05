@@ -1,0 +1,27 @@
+.new-wrap{
+    padding: 24px;
+}
+
+.new-item{
+    position: relative;
+}
+
+.new-overlay__btn{
+    display: flex;
+    gap: 10px;
+}
+.new-tag{
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.tag-botnet{
+    background-color: var(--disabled-color-success);
+    color: var(--global-color-success-success-500);
+}
+
+.tag-vul{
+    background-color: var(--disable-color-primary);
+    color: var(--text-color-primary);
+}

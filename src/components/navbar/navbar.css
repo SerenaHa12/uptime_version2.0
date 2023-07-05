@@ -5,10 +5,11 @@
   scroll-behavior: smooth;
 }
 
-p {
+.navbar-version {
   padding: 4px 12px;
   border-radius: 20px;
   background: var(--global-color-primary-primary-50-light);
+  color: var(--global-color-primary-primary-700);
   font-size: 16px;
   font-style: normal;
   font-weight: 600;

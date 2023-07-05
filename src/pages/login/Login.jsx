@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import logo_dark from "../../assets/logo-dark.svg";
 import item_0 from "../../assets/item-0.png";
-// import "./login.css";
+import "./login.css";
 
 const Login = () => {
     const navigate = useNavigate();
@@ -13,7 +13,7 @@ const Login = () => {
         // Kiểm tra thông tin đăng nhập
         if (email === 'workspace@gmail.com' && password === '123') {
             // Đăng nhập thành công, điều hướng đến trang chủ
-            navigate('/home');
+            navigate('/dashboard');
         } else {
             // Xử lý lỗi đăng nhập không thành công (vd: hiển thị thông báo lỗi)
             console.log('Đăng nhập không thành công');
